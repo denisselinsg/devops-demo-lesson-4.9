@@ -71,7 +71,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     env:
-      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_USERNAME: denisselin
       DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
 
     steps:
